@@ -1,0 +1,49 @@
+{
+  "name": "boilerplate-react-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew Mead",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "express": "4.15.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "material-ui": "^0.20.0",
+    "react": "16.1.0",
+    "react-addons-shallow-compare": "15.6.0",
+    "react-dom": "16.1.0",
+    "react-frame-component": "^2.0.0",
+    "react-redux": "5.0.5",
+    "react-toggle": "^4.0.2",
+    "redux": "3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-form": "^7.2.0",
+    "redux-form-material-ui": "^4.3.3",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1",
+    "styled-components": "^2.4.0",
+    "webpack": "3.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "4.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.1.0",
+    "webpack-dev-server": "2.5.1"
+  }
+}
